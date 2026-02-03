@@ -1,0 +1,478 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    color: white;
+    background-color: #e2e6e7;
+    font-family: Arial;
+}
+
+
+.navbar{
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    /* position: fixed;
+    width: 100%; */
+}
+.nav-logo{
+    height: 80px;
+    width: 145px; 
+    margin-bottom: 15px;
+}
+
+.logo{
+    background-image: url(Amazon-nav-logo.png);
+    height: 70px;
+    width: 100%;
+    background-size: cover;
+}
+/* img{
+   height: 70px;
+    width: 100%;
+    background-size: cover; 
+    /* padding-top: 15px;
+    padding-right: 10px; */
+    /* margin-top: 10px;
+    margin-right: 10px;
+} */ */
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1.5px solid white;
+}
+.add-icon{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;    
+}
+.add-one{
+    margin-left: 18px;
+}
+.add-second{
+    margin-left: 6px;
+}
+.nav-address{
+    margin-right: 15px;
+}
+.nav-search{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 5px;
+}
+.compact-select{
+  width: auto;
+  max-width: 50px; /* Adjust based on desired label width */
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    border: 1px;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 1rem
+}
+.search-bar{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 0;
+    background-color: #febd6a;
+    border: none;
+    font-size: 1.25rem;
+}
+.c-icon{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 25px;
+}
+.lang{
+    font-size: 0.75rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+}
+.accounts-lists{
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.sign-in{
+    font-size: 0.75rem;
+}
+.account-list{
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+#option{
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+}
+.Returns-Order{
+    font-size: 0.75rem;
+    margin-left: 25px;
+}
+.orders{
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+.cart{
+    margin-left: 25px;
+}
+.cart-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-c-icon{
+    font-size: 1.6rem;
+}
+.number{
+    margin-left: 10px;
+    color: #f08804;
+    font-size: 14px;
+    padding-left: 2px;
+}
+.panel{
+    height: 35px;
+    display: flex;
+    background-color: #232e3f;
+    align-items: center;
+    font-size: 0.9rem;
+    /* position: absolute;
+    top: 80px; */
+    width: 100%;
+}
+.menu{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.menu-icon{
+    margin-right:5px;
+}
+.todays-deals{
+    display: flex;
+    margin-right: 15px;
+}
+.registry{
+    display: flex;
+    margin-right: 15px;
+}
+.prime-video{
+    display: flex;
+    margin-right: 15px;
+}
+.gift-cards{
+    display: flex;
+    margin-right: 15px;
+}
+.customer-service{
+    display: flex;
+    margin-right: 15px;
+}
+.hero-image{
+    background-image: url(hero-image.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    /* position: absolute;
+    top: 115px; */
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to bottom, #e2e6e7, #d781ff); */
+
+}
+.side-arrow{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+.right{
+    color: black;
+    font-size: 30px;
+    height: 40px;
+}
+.left{
+    color: black;
+    font-size: 30px;
+    height: 40px;
+}
+.hero-text{
+    background-color: white;
+    color: black;
+    width: 95%;
+    height: 30px;
+    text-align: center;
+    padding-top:10px;
+    align-self: flex-start;
+    font-size: 0.9rem;
+}
+.hero-text a{
+    text-decoration: none;
+    color: #007185;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1450px;
+    margin: auto;
+}
+
+.box{
+    color: black;
+    background-color: white ;
+    width: 345px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.essentials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.essentials figure{
+    margin: 20px;
+    font-size: 0.75rem;
+}
+.c1{
+    height: 110px;
+    width: 130px;   
+}
+.shop-ess{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.discover{
+    padding-left: 25px;
+    font-size: 0.75rem;
+    color: rgb(33,98,161);
+    font-weight: 550;
+}
+
+.appli{
+    display: flex;
+    flex-wrap: wrap;
+}
+.appli figure{
+    margin: 20px;
+    font-size: 0.75rem;
+}
+.c1{
+    height: 110px;
+    width: 130px;   
+}
+.top-appli{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.explore{
+    padding-top: 5px;
+    padding-left: 25px;
+    font-size: 0.75rem;
+    color: rgb(33,98,161);
+    font-weight: 550;
+}
+.c2{
+    width: 300px;
+    height: 130px;
+}
+.c3{
+    width: 100px;
+    height: 70px;
+}
+.oth-appli{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-right: 10px; */
+}
+.fig{
+    width: 100px;
+    margin-right: 10px;
+}
+.k{
+    margin-right: 10px;
+}
+
+.req{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.req figure{
+    margin: 20px;
+    font-size: 0.75rem;
+}
+.c4{
+    height: 290px;
+    width: 300px;   
+}
+
+.game{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.gaming{
+    padding-left: 25px;
+    font-size: 0.75rem;
+    color: rgb(33,98,161);
+    font-weight: 550;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    width: 100%;
+    height: 30px;
+}
+
+.button a{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #364759;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.recom{
+    height: 200px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.see{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pers{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(232, 226, 226);
+}
+#sign{
+    background-color: #fed813;
+    display: block;
+    width:230px;
+    height: 25px;
+    text-align: center;
+    padding-top: 9px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-size: 0.8rem;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.pers a{
+    color: black;
+  
+}
+.cust{
+    font-size: 0.68rem;
+}
+footer{
+    height: 300px;
+    background-color: #232f3f;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+li{
+    margin-bottom: 4px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+.know{
+    margin-top: 15px;
+}
+.money{
+    margin-top: 15px;
+}
+.payment{
+    margin-top: 15px;
+}
+.help{
+    margin-top: 15px;
+}
+.cond{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+.inc{
+    text-align: center;
+    font-size: 0.8rem;
+}
+.amazon-pay{
+    margin-bottom: 10px;
+}
+.to{
+    margin-bottom: 10px;
+}
+.make{
+    margin-bottom: 10px;
+}
+.let{
+    margin-bottom: 10px;
+}
+hr{
+    background-color: red;
+}
